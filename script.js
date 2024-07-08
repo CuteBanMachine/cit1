@@ -4,6 +4,8 @@ document.getElementById('search-form').addEventListener('submit', function(event
     fetchMultipleMovies(titles);
 });
 
+
+
 function fetchMultipleMovies(titles) {
     const apiKey = '7858892a'; 
 

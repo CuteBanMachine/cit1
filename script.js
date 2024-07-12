@@ -51,3 +51,5 @@ function displayError(message) {
     const movieInfoDiv = document.getElementById('movie-info');
     movieInfoDiv.innerHTML = `<p style="color: red;">Error: ${message}</p>`;
 }
+
+

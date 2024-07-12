@@ -1,3 +1,4 @@
+
 document.getElementById('search-form').addEventListener('submit', function(event) {
     event.preventDefault();
     const titles = document.getElementById('movie-title').value.split(',');

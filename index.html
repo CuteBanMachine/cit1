@@ -1,0 +1,36 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+        #movie-info {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Movie Search</h1>
+    <form id="search-form">
+        <input type="text" id="movie-title" placeholder="Название фильма" required>
+        <button type="submit">Search</button>
+    </form>
+    <div id="movie-info"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

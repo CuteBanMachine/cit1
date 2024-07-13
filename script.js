@@ -53,3 +53,5 @@ function displayError(message) {
     movieInfoDiv.innerHTML = `<p style="color: red;">Error: ${message}</p>`;
 }
 
+
+
